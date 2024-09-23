@@ -1,15 +1,12 @@
-# Simple Wallet Generator
+# Simple Wallet Gen
 
-This is a simple Bitcoin wallet and private key generator written in Python.
-
-## Features
-
-- Generate a random private key
-- Convert the private key to Wallet Import Format (WIF)
+Simple Wallet Gen is a simple Python program to generate a Bitcoin private key and its corresponding address. The private key is provided in both hexadecimal and Wallet Import Format (WIF).
 
 ## How to Use
 
-1. Ensure you have Python installed.
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/simple_wallet_gen.git
+Clone this repository and run the program:
+
+```bash
+git clone https://github.com/Hitice/Simple-Wallet-Gen.git
+cd Simple-Wallet-Gen
+python wallet_gen.py
