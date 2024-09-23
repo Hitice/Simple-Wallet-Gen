@@ -1,8 +1,19 @@
+# Python-related files
 __pycache__/
 *.py[cod]
+*.egg-info/
+*.egg
 *.pyo
 *.pyd
-*.db
-*.sqlite3
-*.log
-.env
+
+# Virtual environments
+venv/
+.env/
+
+# IDE-related files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
